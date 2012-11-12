@@ -1,0 +1,6 @@
+# Files to modify
+
+- _config.yml: global variable of the website
+- index.md: the index.html
+- pageN.html: content of page 1 to 4
+- assets/themes/the-minimum/css/style.css: css modifications of the current theme, i.e. 'the-minimum' 
