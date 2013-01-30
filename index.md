@@ -4,35 +4,16 @@ title: Outline
 tagline: Supporting tagline
 ---
 
-## 1 - Data Preparation
-<p><a href="http://www.dud.docking.org">DUD dataset</a>: work on small target datasets such as <a href="http://dud.docking.org/r2/targets/">ADA</a> (1 ligand, 39 actives, 927 decoys).</p>
-<p><a href="http://bioserv.rpbs.univ-paris-diderot.fr/Help/FAFDrugs.html">FAF Drugs</a>: data cleaning, filtering, vizualisation of chemical properties.</p>
-<p><a href="http://wwmm-svc.ch.cam.ac.uk/wwmm/html/?cid=observer">BABEL</a>: conversion to from mol2 to smiles files.</p>
-<p><a href="http://chemmine.ucr.edu/iframe/similarity/">ChemMine Tools</a>: Chemical properties calculations.</p>
+## 1 - Ligand Preparation
+Using <a href="http://zinc.docking.org/">ZINC</a> 
+Draw the compounds
+Save the smile code
+check if correct with ZINC id / smile
 
-## 2 - Similarity Search
-#### Guideline
-<p>For a given target upload the ligand as a query and then the dataset of actives + decoys as library. Ideally, a comparison of several fingerprints could be interesting to emphasize the notion of chemical information within a FP. Introduction to the notion of chemical descriptor. Compare the ranking of the different FP.</p>
-#### Tools
-<p><a href="http://cheminformatics.org/simsearch/index.html">Molprint2D</a>: an ECFP-like fingerprint, i.e. each heavy atom within the molecule is encoded according the atom type and his neighbors. It differs from Scitegic fingerprints in the information that is contained in addition to the chemical element: Whereas Scitegic ECFP fingerprints use a wide range of information ty type each atom (element, charge, valence, number of bonds to hydrogens and heavy atoms) the descriptor employed here simply uses mol2 atom types. So far the ranking online do not work.</p>
-<img src="/img/molPrint2D.gif" />
-<p><a href="http://chemmine.ucr.edu/iframe/similarity/">ChemMine Tools</a>: MCS search.</p>
-<p><a href="http://public.zbh.uni-hamburg.de/ftrees/query.py">Feature Trees</a>: A Feature Tree provides one level of abstraction from the exact molecular topology. It is created by dividing a molecule into a set of building blocks. The molecule is split at all acyclic bonds (except for terminal bonds), to form the building blocks. Simple cycles are condensed into single nodes. Special rules apply to decomposing complex cyclic systems. The building blocks form the nodes in a Feature Tree. The topology of the tree preserves the overall topology of the molecule (i.e. nodes are connected if the building blocks are connected). Finally, the Feature Tree nodes are annotated with the physico-chemical properties of the original molecule building blocks (size, #donors, #acceptors, aromaticity, etc.).</p>
-<p><a href="http://bioserv.rpbs.jussieu.fr/Help/wwLigCSRre.html">wwLigCSRre</a>: this tools is based on a 3D similarity search engine, LigCSRre. LigCSRre is based on a geometric tool, the CSR algorithm developped by M. Petitjean, that aims at identifying the maximal common substructure in two collections of coordinates, independently of any a priori pairings. It is combined with a regular expression mechanism applied to the mol2 atomic types to increase the physico-chemical relevance of the matches.</p>
-<p><a href="http://infochim.u-strasbg.fr/webserv/VSEngine.html">VSEngine</a></p>
+Using <a href="http://www.molinspiration.com/cgi-bin/properties">molinspiration</a>
+Copy the simle string
+Verify bioactivity score
 
-#### Alternative Guideline
-<p>If not possible to upload a dataset, compare a given query to online database and discuss the outcomes. Ideally, a comparison of several fingerprints could be interesting to emphasize the notion of chemical information within a FP.</p>
-<p><a href="http://www.genome.jp/tools/simcomp/">Simcomp / Subcomp</a>: Similarity or substruscture search. Several databases available such as drugbank, compound (upload ?), knapsack... Furthermore, advanced options are available for searching. So far, error while computing similar compounds.</p>
-<p><a href="http://ligand.info/applet.html">Ligand Info</a>: Similarity in several DB (asinex, kegg, …)</p>
-<p><a href="http://bioinf-tomcat.charite.de/superligands/searchDrugsim.faces">super Ligand</a>: similarity 2d 3d</p>
+## 2 - Datasets Preparation
 
-## 3 - Datamining
-#### Guideline
-<p>Work on 50ish ligands, cluster them to get an idea of what's going on. Is that what we expect ?</p>
-#### Tools
-<p><a href="http://chemmine.ucr.edu/ChemMineToolsV2/work/intro/tutorial">ChemMine Tools</a>: powerful dataminer. Issue in the outcomes with 1000 cpmds. Works with few cpmds (tested with 39).</p>
-## 4 - Drawing
-<p><a href="http://zinc.docking.org/search/structure">ZINC</a>: draw or edit smiles. Then directly search within the ZINC database for similar compounds. Discuss outcomes.</p>
-<p><a href="http://www.daylight.com/dayhtml_tutorials/languages/smarts/index.html">Daylight</a>: get familiar with the smiles format.</p>
-<p>Draw substructures: guess top 3 fragment that are likely to be in a drug. Code substructure in .smi. Search according this substructure. Compare to Jakub outcomes.</p>
+## 3 - Ligand Optimization
