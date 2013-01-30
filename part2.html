@@ -1,7 +1,39 @@
 ---
 layout: page
-title: Part 2
+title: Datasets preparation
 header: Posts By Tag
 group: navigation
 ---
 
+In order to find better activs on the target, we will look for similar compounds of the drug within differents databases and therefore create a dataset of similar compounds. Those similar compounds will be the basis we need for the ligand optimization.<br/>
+<br/>
+
+<h3>ZINC</h3>
+The ZINC database exhibits around 20 millions compounds. You will first have a look in this database.
+<h4>Basic search</h4>
+<li>Go to the <a href="http://zinc.docking.org/">ZINC</a> → Search → Structure</li>
+<br/>
+<li>Copy the smile code of your drugs in the box called 1.</li>
+<br/>
+<li>Set up the cut-off of similarity to 90% → Run Query</li>
+<br/>
+<li>How many compounds do you retrieve ?</li> 
+<br/>
+<h4>Improve searching</h4>
+You might want to work with 50 compounds max, in order to increase or decrease your number of compounds, you can:
+<li>Implement Lipinski rules in the search</li>
+<li>Modify the cut-off for similarity search</li>
+<br/>
+<h3>Ligandinfo</h3>
+LigandInfo is a java-based tool, that allows you to perform similarity screen in 8 databases.
+<br/>
+<li>Go to <a href="http://ligand.info/">ligandInfo</a> → Run ligand.info (top right corner)
+<br/>
+<li>File → Open → From Text Box</li>
+<br/>
+<li>Enter the smile code of your drugs in the box → Open</li>
+<br/>
+<li>Search → Search in → Druglikeness NCI
+<br/>
+<li>Set the number of similar molecules to 20 → Multiple Search</li>
+<br/>
