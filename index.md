@@ -30,11 +30,11 @@ At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
 <li><b>Norvasc</b>: target the Ion channel modulator, used for the treatment of angina.</li>
 <li><b>Glivec</b>: target the Kinase Inhibitor, used for the treatment of multiple cancers.</li>
 <br/>
-<table style="width: 100%;">
+<table>
 <tr>
-<td><img src="/img/imitrex.jpg" width="160"/></td>
-<td><img src="/img/norvasc.jpg" width="160"/></td>
 <td><img src="/img/gleevec.jpg" width="160" height="140"/></td>
+<td><img src="/img/imitrex.jpg" width="160"/></td>
+<td><img src="/img/norvasc.jpg" width="160" height="140"/></td>
 </tr>
 </table>
 Using differente chemoinformatics tools, such as similarity search, clustering, or prediction of ADMET properties, you might at the end suggest up to 3 compounds that you think they might be better for your drug target. Those compounds will be then studied closely by your a team of pharmaceutics experts from <i>molinspiration</i>.
