@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Outline
+title: Introduction
 tagline: Supporting tagline
 ---
 
 ## Background scenario
-You just arrived in a very promising startup, <i>molinspiration</i>, specialized in the prediction <i>in-silico</i> of small compounds bioactivities. This startup is known for its rigor and expertise in this field. The director is famous since he wrote the main algorithm of <i>molinspiration</i>, which is one of the most used software regarding the prediction of bioactivities.
+You just arrived in a very promising startup, <i>molinspiration</i>, specialized in the prediction <a href="http://en.wikipedia.org/wiki/In_silico"><i>in-silico</i></a> of small compounds bioactivities. This startup is known for its rigor and expertise in this field. The director is famous since he wrote the main algorithm of <i>molinspiration</i>, which is one of the most used software regarding the prediction of bioactivities.
 
 ## Your main goal
-You will start with an existing drugs and try to improve its potency regarding its target.
+You will start from an existing drugs and try to improve its potency regarding its target.
 Nowadays, the drug targets can be separated in 6 classes:
 
 <table style="width: 100%;">
@@ -37,7 +37,7 @@ At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
 <td><img src="/img/norvasc.jpg" width="160" height="140"/></td>
 </tr>
 </table>
-Using differente chemoinformatics tools, such as similarity search, clustering, or prediction of ADMET properties, you might at the end suggest up to 3 compounds that you think they might be better for your drug target. Those compounds will be then studied closely by your a team of pharmaceutics experts from <i>molinspiration</i>.
+Using differente chemoinformatics tools, such as similarity search, clustering, or the prediction of ADMET properties, you will chose a drug and suggest up to 3 compounds that you think they might be better. Those compounds will be then studied closely by your a team of pharmaceutics experts from <i>molinspiration</i> for a later improvement (or not)...
 
 ## General Guideline
 
@@ -45,7 +45,7 @@ Your project will be divided into three different parts:
 <li><b>Part 1 - Ligand preparation</b></li>
 In this part you will familiarize yourself with the drug you want to improve. Drawing its structure, getting the smiles code, the bioactivity score, ...
 
-<li><b>Part 2 - Datasets preparations</b></li>
+<li><b>Part 2 - Datasets preparation</b></li>
 Once you have the structure of the drugs, you will look for similar compounds into differente databases. There you will familiarize yourself with the notion of similarity, fingerprint, ...
 <li><b>Part 3 - Ligand Optimization</b></li>
 Using the information within the different dataset, you will explore the similar compounds of your drug and suggest new compounds for pharmaceutical study, with the help of clustering and prediction of ADMET properties.
