@@ -8,7 +8,7 @@ tagline: Supporting tagline
 You just arrived in a very promising startup, <i>molinspiration</i>, specialized in the prediction <a href="http://en.wikipedia.org/wiki/In_silico"><i>in-silico</i></a> of small compounds bioactivities. This startup is known for its rigor and expertise in this field. The director is famous since he wrote the main algorithm of <i>molinspiration</i>, which is one of the most used software regarding the prediction of bioactivities.
 
 ## Your main goal
-You will start from an existing drugs and try to improve its potency regarding its target.
+You will start from an existing drugs and try to improve its potency regarding its target. The criteria we will use as reference, is the <a href="http://www.molinspiration.com/docu/miscreen/druglikeness.html">bioactivity score</a> from molinspiration.
 Nowadays, the drug targets can be separated in 6 classes:
 
 <table style="width: 100%;">
@@ -43,7 +43,7 @@ Using differente chemoinformatics tools, such as similarity search, clustering, 
 
 Your project will be divided into three different parts:
 <li><b>Part 1 - Ligand preparation</b></li>
-In this part you will familiarize yourself with the drug you want to improve. Drawing its structure, getting the smiles code, the bioactivity score, ...
+In this part you will familiarize yourself with the drug you want to improve. Drawing its structure, getting the SMILES code, the bioactivity score, ...
 
 <li><b>Part 2 - Datasets preparation</b></li>
 Once you have the structure of the drugs, you will look for similar compounds into differente databases. There you will familiarize yourself with the notion of similarity, fingerprint, ...
