@@ -25,9 +25,9 @@ You will start from an existing drugs and try to improve its potency regarding i
 <br/>
 
 At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
-<li><b>Imitrex</b>: target the GPCRs, used for the treatment of migrain headaches.</li>
-<li><b>Norvasc</b>: target the Ion channel modulator, used for the treatment of angina.</li>
-<li><b>Glivec</b>: target the Kinase Inhibitor, used for the treatment of multiple cancers.</li>
+<li><b>Imitrex</b>: targets the GPCRs, used for the treatment of migrain headaches.</li>
+<li><b>Norvasc</b>: targets the Ion channel modulator, used for the treatment of angina.</li>
+<li><b>Glivec</b>: targets the Kinase Inhibitor, used for the treatment of multiple cancers.</li>
 <br/>
 <table>
 <tr>
