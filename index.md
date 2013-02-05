@@ -37,15 +37,20 @@ At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
 <td><img src="/img/norvasc.jpg" width="160" height="140"/></td>
 </tr>
 </table>
-Using differente chemoinformatics tools, such as similarity search, clustering, or the prediction of ADMET properties, you will chose a drug and suggest up to 3 compounds that you think they might be better. Those compounds will be then studied closely by your a team of pharmaceutics experts from <i>molinspiration</i> for a later improvement (or not)...
+Using differente chemoinformatics tools, such as similarity search, clustering, or the prediction of ADMET properties, you will chose a drug and suggest up to 3 compounds that you think they might be better. Those compounds will be then studied closely by a team of pharmaceutics experts from <i>molinspiration</i> for a later improvement (or not)...
 
 ## General Guideline
 
 Your project will be divided into three different parts:
-<li><b>Part 1 - Ligand preparation</b></li>
+<li><b><a href="/part1.html">Part 1 - Ligand preparation</a></b></li>
 In this part you will familiarize yourself with the drug you want to improve. Drawing its structure, getting the SMILES code, the bioactivity score, ...
 
-<li><b>Part 2 - Datasets preparation</b></li>
+<li><b><a href="/part2.html">Part 2 - Datasets preparation</a></b></li>
 Once you have the structure of the drugs, you will look for similar compounds into differente databases. There you will familiarize yourself with the notion of similarity, fingerprint, ...
-<li><b>Part 3 - Ligand Optimization</b></li>
+
+<li><b><a href="/part3.html">Part 3 - Ligand Optimization</a></b></li>
 Using the information within the different dataset, you will explore the similar compounds of your drug and suggest new compounds for pharmaceutical study, with the help of clustering and prediction of ADMET properties.
+
+<a href="/part1.html">Let's jump to <b>Part 1</b></a>
+<br/>
+<br/>
