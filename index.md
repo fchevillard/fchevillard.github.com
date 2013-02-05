@@ -8,8 +8,7 @@ tagline: Supporting tagline
 You just arrived in a very promising startup, <i>molinspiration</i>, specialized in the prediction <a href="http://en.wikipedia.org/wiki/In_silico"><i>in-silico</i></a> of small compounds bioactivities. This startup is known for its rigor and expertise in this field. The director is famous since he wrote the main algorithm of <i>molinspiration</i>, which is one of the most used software regarding the prediction of bioactivities.
 
 ## Your main goal
-You will start from an existing drugs and try to improve its potency regarding its target. The criteria we will use as reference, is the <a href="http://www.molinspiration.com/docu/miscreen/druglikeness.html">bioactivity score</a> from molinspiration.
-Nowadays, the drug targets can be separated in 6 classes:
+You will start from an existing drugs and try to improve its potency regarding its target. The criteria we will use as reference, is the <a href="http://www.molinspiration.com/docu/miscreen/druglikeness.html">bioactivity score</a> from molinspiration. The aforementionned software distinguish 6 classes of drug target:
 
 <table style="width: 100%;">
 <tr>
