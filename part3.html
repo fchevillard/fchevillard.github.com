@@ -8,13 +8,21 @@ group: navigation
 <h3>Step 7 - Clustering</h3>
 Clustering allows you to regroup similar molecules into a cluster (group of molecules). It can be then interesting to study the outcomes from clustering to see, as instance, within a dataset if a common chemical structure appears often. You will use ligandinfo for this procedure which is based on <a href="http://www.multid.se/genex/hs515.htm" target="_blank">complete-linkage algorithm</a>.
 <br/><br/>
+<li>Retrieve the 20 compounds obtained in <b>Part 5</b></li>
 <li><i>Cluster</i> → <i>Normal</i> → <i>Whole Table</i></li>
 <li>Set the similarity between molecules to 0.8 → <i>Normal Cluster</i></li>
 <br/>
-The outcomes will appears on the table. The last column (Cluster ID) gives you the ID of the cluster, so you can see which compounds are regroup in the same cluster.
-<br/><br/>
-<li>Are the clusters relevants ?</li>
-<li>Set up the similarity</li>
+<p style = "background-color:#BADA55"><i><b>n.b.</b></i> The outcomes will appears on the table. The last column (Cluster ID) gives you the ID of the cluster, so you can see which compounds are regroup in the same cluster. Let's then have a closer look to each cluster.</p>
+<li>Are the compounds within each cluster similar ?</li>
+<li>Can you find particular features that distinguish two clusters ?</li>
+<li>Repeat the previous steps and change the similarity values within the cluster.</li>
+<li>Comment differences.</li>
+<br/>
+<p style = "background-color:#BADA55"><i><b>n.b.</b></i> At some point, you might find a cluster that you like. You can explore similar compounds of the cluster members by doing another similarity search.</p>
+<li>Select the compounds of the clusters in the table (they should be highlighted in blue)</li>
+<li><i>Search</i> → <i>Search in</i> → <i>Whatever Databases you like</i>
+<li>Set the number of similar molecules to 20 → <i>Multiple Search</i></li>
+<li>Comment on the new compounds</li>
 <br/>
 <h3>Step 8 - ADMET Prediction</h3>
 A few words about ADMET...

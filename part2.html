@@ -18,16 +18,23 @@ The ZINC database exhibits around 20 millions compounds. You will first have a l
 <li>Does the suggested compounds looks similar to the drugs ?</li>
 <li>Modify the cut-off for similarity search, so you can work with 25ish compounds.</li>
 <br/>
+
 <h3>Step 5 - Ligandinfo</h3>
 LigandInfo is a java-based tool, that allows you to perform similarity screen in 8 databases and clustering studies.
 <br/><br/>
 <li>Go to <a href="http://ligand.info/" target="_blank">ligandInfo</a> → <i>Run ligand.info</i> (top right corner)
 <li><i>File</i> → <i>Open</i> → <i>From Text Box</i></li>
-<li>Enter the smile code of your drugs in the box → <i>Open</i> (if the <i>paste</i> option do not work, you have to write the SMILES manually...)</li>
+<li>Enter the smile code of your drug (query) in the box → <i>Open</i> (if the <i>paste</i> option do not work, you have to write the SMILES manually...)</li>
 <li><i>Search</i> → <i>Search in</i> → <i>Druglikeness NCI</i>
-<li>Set the number of similar molecules to 20 → <i>Multiple Search</i></li>
-<li>Repeat the previous steps in different databases</li>
+<li>Set the number of similar molecules to 20 → <i>Profile Search</i></li>
 <br/>
+<p style = "background-color:#BADA55"><i><b>n.b.</b></i> The similar compounds will appears in a table, sorted by decreasing similarity. <br/>So the compounds on the top is the query and the second one is the most similar to the query, and so on ...</p>
+<li>Remove the outcomes from the search → Select the compounds you want to remove → <i>Table</i> → <i>Remove Molecules</i> → <i>Yes</i></li>
+<li>Get familiar with liganinfo similarity search, by repeating the previous steps using different databases</li>
+<li>Stop when you do have around 20 compounds that you like and do feel confortable with the similarity search</li>
+<br/>
+<p style = "background-color:#BADA55"><i><b>n.b.</b></i> Feel free to explore the different options within ligand info, such as the menu <i>Table</i> or <i>Viewer</i>...</p>
+
 <h3>Step 6 - Similarity discussion</h3>
 Some informations about the <a href="http://www.chemaxon.com/jchem/doc/user/fingerprint.html" target="_blank">Chemical Hashed Fingerprint</a> and the <a href="http://www.daylight.com/dayhtml/doc/theory/theory.finger.html" target="_blank">Daylight Fingerprint</a> which are implemented within ZINC and ligandinfo respectively.
 <br/><br/>
