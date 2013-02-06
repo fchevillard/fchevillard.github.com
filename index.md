@@ -7,8 +7,8 @@ tagline: Supporting tagline
 ## Background scenario
 You just arrived in a very promising startup, <i>molinspiration</i>, specialized in the prediction <a href="http://en.wikipedia.org/wiki/In_silico" target="_blank"><i>in-silico</i></a> of small compounds bioactivities. This startup is known for its rigor and expertise in this field. The director is famous since he wrote the main algorithm of <i>molinspiration</i>, which is one of the most used software regarding the prediction of bioactivities.
 
-## Your main goal
-You will start from an existing drugs and try to improve its potency regarding its target. The criteria we will use as reference, is the <a href="http://www.molinspiration.com/docu/miscreen/druglikeness.html" target="_blank">bioactivity score</a> from molinspiration. The aforementionned software distinguish 6 classes of drug target:
+## Your goal
+You will be part of a project that aims to improve existing drugs. To do so, you will explore similar compounds of a given drug. The fundation of your work will be the <a href="http://www.molinspiration.com/docu/miscreen/druglikeness.html" target="_blank">bioactivity score</a> from <i>molinspiration</i>, which allows to predict on which target a compound is likely to bind. The aforementionned software distinguish 6 classes of drug target:
 
 <table style="width: 100%;">
 <tr>
@@ -25,9 +25,9 @@ You will start from an existing drugs and try to improve its potency regarding i
 <br/>
 
 At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
-<li><b>Imitrex</b>: targets the GPCRs, used for the treatment of migrain headaches.</li>
-<li><b>Norvasc</b>: targets the Ion channel modulator, used for the treatment of angina.</li>
-<li><b>Glivec</b>: targets the Kinase Inhibitor, used for the treatment of multiple cancers.</li>
+<li><b>Imitrex</b>: targets the <i>GPCRs</i>, used for the treatment of migrain headaches.</li>
+<li><b>Norvasc</b>: targets the <i>Ion Channel Modulator</i>, used for the treatment of angina.</li>
+<li><b>Glivec</b>: targets the <i>Kinase Inhibitor</i>, used for the treatment of multiple cancers.</li>
 <br/>
 <table>
 <tr>
@@ -36,7 +36,7 @@ At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
 <td><img src="/img/norvasc.jpg" width="160" height="140"/></td>
 </tr>
 </table>
-Using differente chemoinformatics tools, such as similarity search, clustering, or the prediction of ADMET properties, you will chose a drug and suggest up to 3 compounds that you think they might be better. Those compounds will be then studied closely by a team of pharmaceutics experts from <i>molinspiration</i> for a later improvement (or not)...
+Using different chemoinformatics tools, such as similarity search, clustering, or the prediction of ADMET properties, you will chose a drug, explore similar compounds of this one and suggest up to 3 compounds that you think they might be better. Those compounds will be then studied closely by a team of pharmaceutics experts from <i>molinspiration</i> for a later improvement (or not)...
 
 ## General Guideline
 
