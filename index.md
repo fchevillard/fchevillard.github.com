@@ -13,7 +13,7 @@ tagline: Supporting tagline
 You just arrived in a very promising startup, <i>kolbinspiration</i>, specialized in the prediction <a href="http://en.wikipedia.org/wiki/In_silico" target="_blank"><i>in-silico</i></a> of small compounds bioactivities. This startup is known for its rigor and expertise in this field. The director is famous since he wrote the main algorithm of <i>molinspiration</i>, which is one of the most used software regarding the prediction of bioactivities.
 
 ## Your goal
-You will be part of a project that aims to improve existing drugs. To do so, you will explore similar compounds of a given drug. The fundation of your work will be the <a href="http://www.molinspiration.com/docu/miscreen/druglikeness.html" target="_blank">bioactivity score</a> from <i>molinspiration</i>, which allows to predict on which target a compound is likely to bind. The aforementionned software distinguish 6 classes of drug target:
+You will be part of a project that aims to improve existing drugs. To do so, you will used the fundamental theory in chemoinformatics which argues that <i>"small molecules with similar structure have similar functional (binding) properties"</i>. Therefore, you will explore similar compounds of a given drug. The fundation of your work will be the <a href="http://www.molinspiration.com/docu/miscreen/druglikeness.html" target="_blank">bioactivity score</a> from <i>molinspiration</i>, which allows to predict on which target a compound is likely to bind. The aforementionned software distinguish 6 classes of drug target:
 
 <table style="width: 100%;">
 <tr>
