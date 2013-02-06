@@ -1,45 +1,45 @@
 ---
 layout: page
-title: Datasets preparation
+title: Dataset preparation
 header: Posts By Tag
 group: navigation
 ---
 
-In order to find better activs on the target, we will look for similar compounds of the drug within differents databases and therefore create a dataset of similar compounds. Those similar compounds will be the basis we need for the ligand optimization.<br/>
+In order to find better actives for the target, we will look for similar compounds of the drug in different databases and thereby create a dataset of similar compounds. These similar compounds will be the basis we need for ligand optimization.<br/>
 <br/>
 
 <h3>Step 4 - ZINC</h3>
-The ZINC database exhibits around 20 millions compounds. You will first have a look in this database.
+The ZINC database contains around 20 million compounds. You will first have a look in this database.
 <br/><br/>
-<li>Go to the <a href="http://zinc.docking.org/" target="_blank">ZINC</a> → <i>Search</i> → <i>Structure</i></li>
+<li>Go to <a href="http://zinc.docking.org/" target="_blank">ZINC</a> → <i>Search</i> → <i>Structure</i></li>
 <li>Paste the SMILES code of your drug in the box "1."</li>
-<li>Set up the cut-off of similarity to <i>90%</i> → Run Query</li>
+<li>Set the cut-off of similarity to <i>90%</i> → Run Query</li>
 <li>How many compounds do you retrieve ?</li> 
-<li>Does the suggested compounds looks similar to the drugs ?</li>
-<li>Modify the cut-off for similarity search, so you can work with 25ish compounds.</li>
+<li>Do the suggested compounds look similar to the drug ?</li>
+<li>Modify the cut-off for similarity search, so you retrieve approx. 25 compounds.</li>
 <br/>
 
 <h3>Step 5 - Ligandinfo</h3>
-LigandInfo is a java-based tool, that allows you to perform similarity screen in 8 databases and clustering studies.
+LigandInfo is a java-based tool that allows you to perform similarity screens in 8 databases and clustering studies.
 <br/><br/>
 <li>Go to <a href="http://ligand.info/" target="_blank">ligandInfo</a> → <i>Run ligand.info</i> (top right corner)
 <li><i>File</i> → <i>Open</i> → <i>From Text Box</i></li>
-<li>Enter the smile code of your drug (query) in the box → <i>Open</i> (if the <i>paste</i> option do not work, you can <i>drag & drop</i> the SMILES code)</li>
+<li>Enter the SMILES code of your drug (query) in the box → <i>Open</i> (if the <i>paste</i> option does not work, you can <i>drag & drop</i> the SMILES code)</li>
 <li><i>Search</i> → <i>Search in</i> → <i>Druglikeness NCI</i>
 <li>Set the number of similar molecules to 20 → <i>Profile Search</i></li>
 <br/>
-<p style = "background-color:#BADA55"><i><b>n.b.</b></i> The similar compounds will appears in a table. Click on a compound to see its structure.</p>
-<li>Remove the outcomes from the search → Select the compounds you want to remove → <i>Table</i> → <i>Remove Molecules</i> → <i>Yes</i></li>
-<li>Get familiar with liganinfo similarity search, by repeating the previous steps using different databases</li>
-<li>Stop when you do have around 20 compounds that you like and do feel confortable with the similarity search</li>
+<p style = "background-color:#BADA55"><i><b>n.b.</b></i> The similar compounds will appear in a table. Click on a compound to see its structure.</p>
+<li>Remove some results from the search → Select the compounds you want to remove → <i>Table</i> → <i>Remove Molecules</i> → <i>Yes</i></li>
+<li>Get familiar with ligandinfo similarity search by repeating the previous steps using different databases</li>
+<li>Stop when you have around 20 compounds that you like and do feel comfortable with the similarity search</li>
 <br/>
 <p style = "background-color:#BADA55"><i><b>n.b.</b></i> Feel free to explore the different menus, such as <i>Table</i> or <i>Viewer</i>...</p>
 
 <h3>Step 6 - Similarity discussion</h3>
-Some informations about the <a href="http://www.chemaxon.com/jchem/doc/user/fingerprint.html" target="_blank">Chemical Hashed Fingerprint</a> and the <a href="http://www.daylight.com/dayhtml/doc/theory/theory.finger.html" target="_blank">Daylight Fingerprint</a> which are implemented within ZINC and ligandinfo respectively.
+Some information about the <a href="http://www.chemaxon.com/jchem/doc/user/fingerprint.html" target="_blank">Chemical Hashed Fingerprint</a> and the <a href="http://www.daylight.com/dayhtml/doc/theory/theory.finger.html" target="_blank">Daylight Fingerprint</a> which are implemented within ZINC and ligandinfo, respectively.
 <br/><br/>
 <li>Did you retrieve common compounds among the different databases ?</li>
-<li>Which parameter can influence the outcomes of your similarity search ?</li>
+<li>Which parameter(s) can influence the outcome of your similarity search ?</li>
 <br/>
 <a href="/part3.html">Let's jump to <b>Part 3</b></a>
 <br/><br/>
