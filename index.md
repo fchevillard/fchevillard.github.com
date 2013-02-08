@@ -31,7 +31,7 @@ You will be part of a project that aims at improving existing drugs. To do so, y
 
 At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
 <li><b>Imitrex</b>: targets <i>GPCRs</i>; used for the treatment of migraine headaches.</li>
-<li><b>Viracept</b>: targets <i>Protease</i>; used for the treatment of HIV.</li>
+<li><b>Viracept</b>: targets <i>Proteases</i>; used for the treatment of HIV.</li>
 <li><b>Glivec</b>: targets <i>Kinases</i>; used for the treatment of multiple cancers.</li>
 <br/>
 <table>
@@ -41,7 +41,7 @@ At the moment, 3 drugs are the main focus of <i>molinspiration</i>:
 <td><img src="/img/nelvir.jpg" width="160" height="140"/></td>
 </tr>
 </table>
-Using different chemoinformatics tools, such as similarity searching, clustering, or the prediction of ADMET properties, you will choose a drug, explore similar compounds of this one and suggest up to 3 compounds that you think might be better. Those compounds will then be studied closely by a team of medicinal cehmistry experts from <i>molinspiration</i> for later improvement (or not)...
+Using different chemoinformatics tools, such as similarity searching, clustering, or the prediction of ADMET properties, you will choose a drug, explore similar compounds of this one and suggest up to 3 compounds that you think might be better. Those compounds will then be studied closely by a team of medicinal chemistry experts from <i>molinspiration</i> for later improvement (or not)...
 
 ## General Guideline
 
